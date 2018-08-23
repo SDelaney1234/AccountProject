@@ -10,8 +10,8 @@ public class App
     {
         System.out.println( "Hello World!" );
         AccountService accountService= new AccountService();
-        Account bob= new Account("Bob","Bobsob","1234");
-        Account jim= new Account("Jim","Jimson","1235");
+        Account bob= new Account("Bob","Bobsob",1234);
+        Account jim= new Account("Jim","Jimson",1235);
         
         accountService.addAccount(bob);
         accountService.addAccount(jim);
