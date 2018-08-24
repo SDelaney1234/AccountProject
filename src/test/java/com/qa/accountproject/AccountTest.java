@@ -24,7 +24,7 @@ public class AccountTest {
 		
 		int actualResult= service.getAccountCountByName("Sebastien");
 		
-		assertEquals(3,actualResult);
+		assertEquals(3,actualResult); 
 		
 	}
 	
