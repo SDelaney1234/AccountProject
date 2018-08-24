@@ -29,15 +29,15 @@ public class AccountService {
 		return new JSONObject(accounts);
 	}
 
-//	public int getAccountCountByName(String name) {
-//		int numberOfAccounts= 0;
-//		
-//		for(int i=1; i <= accounts.size(); i++) {
-//			if(accounts.get(i).getFirstName().equals(name)) {
-//				numberOfAccounts++;
-//			}
-//		}
-//		return numberOfAccounts;
-//	}
+	public int getAccountCountByName(String name) {
+		int numberOfAccounts= 0;
+		
+		for(int i=1; i <= accounts.size(); i++) {
+			if(accounts.get(i).getFirstName().equals(name)) {
+				numberOfAccounts++;
+			}
+		}
+		return numberOfAccounts;
+	}
 
 }
